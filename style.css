@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1600628421066-f6bda6a7b976?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2QlMjBmcmllbmRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color:rgba(94, 97, 93, 0.9);
+    }
+
+#container {
+    background-color:rgba(94, 97, 93, 0.9);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+    padding: 20px;
+    }
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(248, 219, 248);
+    align-self: center;
+    }
+
+input{
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+#addTip {
+    background-color:#78DEC7;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+#btn {
+    background-color: #F7DBF0;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+#tip {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    display: none;
+}
+
+#showTotalAmountToPay {
+    display: flex;
+}
+
+#billSplit, #totalTip, #totalAmount {
+    background-color: #8dbc89;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
