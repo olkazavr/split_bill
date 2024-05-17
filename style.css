@@ -91,3 +91,22 @@ input{
     border-radius: 10px;
     border: 1px solid black;
 }
+@media all and (max-width: 800px){
+    #container {
+        width: 100vw;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: -40px;
+    }
+    #addTip, #btn {
+        width: 100px;
+    }
+    p, span{
+        font-size: 10px;
+    }
+    #billSplit, #totalTip, #totalAmount {
+        margin: 5px;
+        width: 50px;
+    }
+}
